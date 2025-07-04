@@ -4,3 +4,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return "Hello from Flask CI/CD with Render!"
+
+@app.route("/hi")
+def hihi():
+    return "hi cái nữa nè"
