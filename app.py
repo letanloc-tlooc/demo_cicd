@@ -12,3 +12,7 @@ def hihi():
 @app.route("/xinchao")
 def hii():
     return "hi hoài luôn"
+
+@app.route("/xin")
+def te():
+    return "yêu bé Ngọc"
