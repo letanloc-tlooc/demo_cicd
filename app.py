@@ -9,6 +9,6 @@ def hello():
 def hihi():
     return "hi cái nữa nè"
 
-@app.route("/hii")
+@app.route("/xinchao")
 def hihi():
     return "hi hoài luôn"
