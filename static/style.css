@@ -2,11 +2,53 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(to right, #ffe0e9, #ffc3a0);
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   color: #5c2a2a;
   text-align: center;
   height: 100vh;
   overflow: hidden;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #ffe6f0;
+  color: #cc0066;
+  text-align: center;
+  margin-top: 100px;
+}
+.heart {
+  font-size: 64px;
+  animation: beat 1s infinite;
+}
+@keyframes beat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+a.love-button {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 14px 30px;
+  background: linear-gradient(45deg, #ff99cc, #ff66b2);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+a.love-button:hover {
+  background: linear-gradient(45deg, #ff66b2, #ff3385);
+  box-shadow: 0 6px 20px rgba(255, 105, 180, 0.6);
+  transform: scale(1.05);
 }
 
 .container {
@@ -36,7 +78,10 @@ button:hover {
 }
 
 @keyframes float {
-  0% {transform: translateY(0);}
-  100% {transform: translateY(-100vh);}
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100vh);
+  }
 }
-
