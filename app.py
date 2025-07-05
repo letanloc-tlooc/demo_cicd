@@ -16,3 +16,6 @@ def hii():
 @app.route("/xin")
 def te():
     return "yêu bé Ngọc"
+@app.route("/x")
+def tfe():
+    return "có gì khó hong ta"
