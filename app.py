@@ -30,7 +30,7 @@ def love_message():
         <div class="heart">💗</div>
         <h1>Gửi em yêu 💌</h1>
         <p>Chúc em một ngày ngọt ngào như nụ cười của em vậy 😘</p>
-        <p>Anh luôn ở đây, yêu em hơn hôm qua và ít hơn ngày mai 💕</p>
+        <p>Anh luôn ở đây, yêu bé Ngọc của anh 💕</p>
       </body>
     </html>
     """)
