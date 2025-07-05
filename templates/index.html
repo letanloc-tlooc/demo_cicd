@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>💖 Gửi Em 💖</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Gửi người con gái anh yêu 🥰</h1>
+    <p>Chúc em mỗi ngày đều vui vẻ, xinh đẹp, và hạnh phúc ❤️</p>
+    <button onclick="showLove()">Click vào đây nè ❤️</button>
+    <p id="secret" style="display:none;">Anh yêu em nhiều lắm luôn đó 😘</p>
+  </div>
+
+  <script>
+    function showLove() {
+      document.getElementById('secret').style.display = 'block';
+      const heart = document.createElement('div');
+      heart.className = 'heart';
+      heart.innerText = '💖';
+      heart.style.left = Math.random() * 100 + 'vw';
+      document.body.appendChild(heart);
+      setTimeout(() => heart.remove(), 3000);
+    }
+  </script>
+</body>
+</html>
