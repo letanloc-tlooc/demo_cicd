@@ -31,6 +31,7 @@ def love_message():
         <h1>Gửi em yêu 💌</h1>
         <p>Chúc em một ngày ngọt ngào như nụ cười của em vậy 😘</p>
         <p>Anh luôn ở đây, yêu bé Ngọc của anh 💕</p>
+        <button><a href="{{ url_for('yeu') }}" >Yêu em</a></button>
       </body>
     </html>
     """)
