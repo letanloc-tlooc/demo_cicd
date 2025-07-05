@@ -8,3 +8,7 @@ def hello():
 @app.route("/hi")
 def hihi():
     return "hi cái nữa nè"
+
+@app.route("/hii")
+def hihi():
+    return "hi hoài luôn"
