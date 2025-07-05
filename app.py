@@ -24,6 +24,27 @@ def love_message():
             0%, 100% { transform: scale(1); }
             50% { transform: scale(1.2); }
           }
+        a.love-button {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 14px 30px;
+            background: linear-gradient(45deg, #ff99cc, #ff66b2);
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            }
+
+            a.love-button:hover {
+            background: linear-gradient(45deg, #ff66b2, #ff3385);
+            box-shadow: 0 6px 20px rgba(255, 105, 180, 0.6);
+            transform: scale(1.05);
+            }
         </style>
       </head>
       <body>
@@ -31,7 +52,7 @@ def love_message():
         <h1>Gửi em yêu 💌</h1>
         <p>Chúc em một ngày ngọt ngào như nụ cười của em vậy 😘</p>
         <p>Anh luôn ở đây, yêu bé Ngọc của anh 💕</p>
-        <button><a href="{{ url_for('yeu') }}" >Yêu em</a></button>
+        <a href="{{ url_for('home') }}" class="love-button">💖 Yêu em 💖</a>
       </body>
     </html>
     """)
