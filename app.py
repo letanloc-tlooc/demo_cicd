@@ -10,5 +10,5 @@ def hihi():
     return "hi cái nữa nè"
 
 @app.route("/xinchao")
-def hihi():
+def hii():
     return "hi hoài luôn"
